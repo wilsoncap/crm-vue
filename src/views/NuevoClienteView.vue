@@ -1,6 +1,6 @@
 <script setup>
-import RouterLink from '@/components/UI/RouterLink.vue';
-
+    import RouterLink from '@/components/UI/RouterLink.vue';
+    import Heading from './Heading.vue';
 </script>
 
 
@@ -12,7 +12,7 @@ import RouterLink from '@/components/UI/RouterLink.vue';
             </RouterLink>
         </div>
 
-        <h1 class="text-4xl font-extrabold text-slate-500">Agregar Clientes</h1>
+        <Heading>Agregar Clientes</Heading>
     </div>
 </template>
 
