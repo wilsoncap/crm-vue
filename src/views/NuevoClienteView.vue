@@ -1,13 +1,13 @@
 <script setup>
-import { RouterLink } from 'vue-router';
+import RouterLink from '@/components/UI/RouterLink.vue';
 
 </script>
 
 
 <template>
     <div>
-        <div>
-            <RouterLink :to="{ name: 'home'}">
+        <div class="flex justify-end">
+            <RouterLink to="/">
                 Volver
             </RouterLink>
         </div>
