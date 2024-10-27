@@ -1,6 +1,12 @@
 <script setup>
     import RouterLink from '@/components/UI/RouterLink.vue';
     import Heading from './Heading.vue';
+
+    defineProps({
+        titulo:{
+            type: String
+        }
+    })
 </script>
 
 
@@ -11,7 +17,7 @@
                 Agregar Cliente
             </RouterLink>
         </div>
-        <Heading>Listado Cliente</Heading>
+        <Heading>{{ titulo }}</Heading>
     </div>
 </template>
 
